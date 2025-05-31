@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 60px;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 200px;
+  float: left;
+  background-color: #222;
+  padding: 15px;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.news {
+  padding: 20px;
+  background-color: #111;
+  margin-left: 220px;
+}
+
+.download {
+  padding: 20px;
+  text-align: center;
+}
+
+.download button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #f90;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+}
